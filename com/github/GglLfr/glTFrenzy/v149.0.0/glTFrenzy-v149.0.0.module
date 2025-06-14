@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.GglLfr",
+    "module": "glTFrenzy",
+    "version": "v149.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "arc-core",
+          "version": {
+            "requires": "v149"
+          }
+        },
+        {
+          "group": "com.github.Anuken.Arc",
+          "module": "g3d",
+          "version": {
+            "requires": "v149"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glTFrenzy-v149.0.0.jar",
+          "url": "glTFrenzy-v149.0.0.jar",
+          "size": 78937,
+          "sha512": "775bdc9eef60770f47331a82910851424d19e874309dccd5018446c5c9674743b4de4c0f45867a9ed3c444ca22a1ebc820a33c4164d62114dca0fa5925b6e12b",
+          "sha256": "de9d2df4cbceea1eecb0bbc20fa2faaa7bb7c1304963dc9ab2629a243bb983e0",
+          "sha1": "daa46aaedb8154956c711e722bf11440ea8b7727",
+          "md5": "8ed2029bffcf51a2b7833a377818c57a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glTFrenzy-v149.0.0.jar",
+          "url": "glTFrenzy-v149.0.0.jar",
+          "size": 78937,
+          "sha512": "775bdc9eef60770f47331a82910851424d19e874309dccd5018446c5c9674743b4de4c0f45867a9ed3c444ca22a1ebc820a33c4164d62114dca0fa5925b6e12b",
+          "sha256": "de9d2df4cbceea1eecb0bbc20fa2faaa7bb7c1304963dc9ab2629a243bb983e0",
+          "sha1": "daa46aaedb8154956c711e722bf11440ea8b7727",
+          "md5": "8ed2029bffcf51a2b7833a377818c57a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glTFrenzy-v149.0.0-javadoc.jar",
+          "url": "glTFrenzy-v149.0.0-javadoc.jar",
+          "size": 152753,
+          "sha512": "6f0827342d82ead51b0e897f8a2c8b9169a1a0f60c86403a5649c00518a02d0da5308feba3b15cc0703c421708a841374b80ab82bb9d618449ec55e9a202edf3",
+          "sha256": "9a1d660c3c6a9ae36a54fdd5575d489d3c640bf64f3be6e17a2d637d893dfbbb",
+          "sha1": "5560ac0494ca3c19e423c208fa112e11493c7700",
+          "md5": "147e1343ac2a76020ce4668a9662150b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glTFrenzy-v149.0.0-sources.jar",
+          "url": "glTFrenzy-v149.0.0-sources.jar",
+          "size": 21397,
+          "sha512": "4edf4ab844c02946d8ebd4538406dff7274de21c5f80ab16b0b3543c312f06a7365e40d8e86b6b93fd569eb59a830c251041a37fbad5abef438f060ce1c52b6a",
+          "sha256": "9ebeff10ab22fd1b4908942ee43c63100725088e3c438030342c96d97b3bf9bf",
+          "sha1": "3cb51cf2cb2e3bb4fadada1d136610bfdc5f6f47",
+          "md5": "c7215e6e18167b6c37bec9663cad8fc3"
+        }
+      ]
+    }
+  ]
+}
